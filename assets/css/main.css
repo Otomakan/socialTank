@@ -3116,10 +3116,11 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 7em 0 8.25em 0 ;
+				padding: 3em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-				background-size: auto, cover;
+				/*COOL! MOdify first image background color*/
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/connectors.gif");
+				/*background-size: auto, cover;*/
 				background-position: center, center;
 				margin-bottom: -6.5em;
 			}
@@ -3228,7 +3229,7 @@
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/landscape.jpeg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
@@ -3321,8 +3322,7 @@
 			padding: 3em 0 1em 0 ;
 			margin: 0 auto;
 			width: 55em;
-		}
-
+		}s
 		.wrapper.style2 {
 			background-color: #353849;
 		}
@@ -3364,11 +3364,11 @@
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: #edd39c;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23edd39c%3B' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.spotlight .inner {
@@ -3395,8 +3395,10 @@
 			}
 
 				.wrapper.spotlight .image img {
+					/*COOL Original 100% 100%; No Filter*/
 					border-radius: 100%;
 					width: 100%;
+					filter: sepia(100%);
 				}
 
 			.wrapper.spotlight .content {
@@ -3417,11 +3419,11 @@
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #45558d;
+				background-color: #cc8924;
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23cc8924%3B' /%3E%3C/svg%3E");
 				}
 
 			.wrapper.spotlight.style3 {
@@ -3620,7 +3622,7 @@
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/landscape.jpeg");
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
