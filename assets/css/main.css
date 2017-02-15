@@ -3421,7 +3421,7 @@
 			opacity: 1;
 			padding: 0.35em 5em; //change siz of the parallel lines
 			position: relative;
-			z-index: 100000;
+			z-index: 900000;
 		}
 
 			#banner h2:before, #banner h2:after {
